@@ -19,14 +19,6 @@ func main() {
 
 	corsRouter := middleware.EnableCORSfunc(r)
 
-	// http.HandleFunc("/home", func(w http.ResponseWriter, r *http.Request) {
-	// 	controllers.Homepage(w, r)
-	// })
-
-	// http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-	// 	http.ServeFile(w, r, "templates/index.html")
-	// })
-
 	log.Println("Starting server on port:8000")
 	log.Fatal(http.ListenAndServe(":8000", corsRouter))
 }
