@@ -1,0 +1,123 @@
+body {
+    background: linear-gradient(to right, #22177A, #605EA1);
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white; 
+}
+
+.title {
+    font-family: 'Trebuchet MS', sans-serif;  
+    font-size: 6em; 
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 50px; 
+    color: #fff; 
+}
+.maindiv{
+    overflow: auto;
+    height: 850px;
+}
+
+.addmaindiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox {
+    width: 1000px;           
+    height: 180px;          
+    background-color: #f4f4f4; 
+    border: 2px solid #333; 
+    border-radius: 10px;    
+    padding: 20px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto;   
+    align-items: center;    
+    overflow:  hidden;
+}
+
+.Btn{
+    display: flex;           
+    gap: 10px;
+    justify-content: center;  
+    align-items: center;      
+    height: 5vh; 
+}
+
+h3 {
+    color: black;  
+}
+
+p {
+    color: black;  
+}
+
+.description{
+    overflow: hidden;
+    width: 500px;  
+    height: 50px;         
+    text-overflow: ellipsis;
+}
+
+.buttons{
+    margin-left: 700px;
+    margin-top: -130px;
+    display: flex;          
+    gap: 10px; 
+}
+
+.duetext{
+    font-family:'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    margin-top: 10px;
+    text-shadow: -1px 1px 0 #000,
+                         1px 1px 0 #000,
+                         1px -1px 0 #000,
+                         -1px -1px 0 #000;
+    color: white;
+}
+.due{
+    width: 250px;
+    height: 50px;
+    font-weight: bold;  
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 700px;
+    background-color: green;
+    justify-content: center;
+    border-radius: 10px; 
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;       
+    font-size: 16px;            
+    cursor: pointer;        
+    background-color: #f44336; 
+    color: white;               
+    border: none;              
+    border-radius: 5px;         
+    transition: background-color 0.3s; 
+}
+
+.form{
+    position: relative;
+    border: 2px solid whitesmoke;
+    width: 400px;
+    height: 38px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.descriptionform{
+    position: relative;
+    border: 2px solid whitesmoke;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25) inset;
+}
